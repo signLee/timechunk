@@ -1,5 +1,5 @@
 # timechunk
-分时函数
+分时函数：作用：用于加载比较大的数据时分批加载数据
  //分时函数 入参：数据源,执行的函数，分次，多长时间加载下次
  
     var timeChunk=function(data,fn,times,wait){
